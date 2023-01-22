@@ -8,6 +8,7 @@ import { BannersComponent } from './body/banners/banners.component';
 import { Cards1Component } from './body/cards1/cards1.component';
 import { Cards2Component } from './body/cards2/cards2.component';
 import { NewsletterComponent } from './body/newsletter/newsletter.component';
+import { ModalComponent } from './body/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NewsletterComponent } from './body/newsletter/newsletter.component';
     BannersComponent,
     Cards1Component,
     Cards2Component,
-    NewsletterComponent
+    NewsletterComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

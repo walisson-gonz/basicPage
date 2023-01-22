@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ModalComponent } from '../modal/modal.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-newsletter',
@@ -7,4 +9,17 @@ import { Component } from '@angular/core';
 })
 export class NewsletterComponent {
 
+  constructor(
+    private router: Router
+  ) { }
+
+  ngOnInit() {
+
+  }
+
+  goToLogin() {
+    this.router.navigate(['/']);
+  }
+
 }
+
